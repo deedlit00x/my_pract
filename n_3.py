@@ -22,3 +22,15 @@
 #     first_f = func(*args, **kwargs)
 #     second_f = func(*args, **kwargs)
 #     return first_f, second_f
+
+
+# user_input = int(input('number pls: '))
+
+# tmp = []
+# for el in range(user_input):
+#     tmp.append(el + 1)
+# result = tuple(tmp)
+# print(result)
+
+def filter_map(f, iter):
+    
